@@ -49,7 +49,7 @@
           data-aos-delay="200"
         >
           <div class="faq-img">
-            <img src="@/assets/images/faq.png" alt="faq" />
+            <img src="@/assets/images/faq/faq.png" alt="faq" />
           </div>
         </div>
       </div>

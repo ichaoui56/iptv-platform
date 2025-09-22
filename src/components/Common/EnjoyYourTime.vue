@@ -51,7 +51,7 @@
       >
         <SwiperSlide v-for="slide in slides" :key="slide.id">
           <RouterLink to="/services-details">
-            <img :src="slide.image" alt="movie" />
+            <img :src="slide.image" alt="movie" style="width: 100%; height:400px"/>
           </RouterLink>
         </SwiperSlide>
       </Swiper>
@@ -83,51 +83,67 @@ export default defineComponent({
       slides: [
         {
           id: 1,
-          image: require("@/assets/images/movie-1.jpg"),
+          image: require("@/assets/images/movie-home/movie1.jpg"),
         },
         {
           id: 2,
-          image: require("@/assets/images/movie-2.jpg"),
+          image: require("@/assets/images/tv-shows/tv-show1.jpeg"),
         },
         {
           id: 3,
-          image: require("@/assets/images/movie-3.jpg"),
+          image: require("@/assets/images/anime/anime1.jpeg"),
         },
         {
           id: 4,
-          image: require("@/assets/images/movie-4.jpg"),
+          image: require("@/assets/images/movie-home/movie4.jpg"),
         },
         {
           id: 5,
-          image: require("@/assets/images/movie-5.jpg"),
+          image: require("@/assets/images/tv-shows/tv-show2.jpeg"),
         },
         {
           id: 6,
-          image: require("@/assets/images/movie-6.jpg"),
+          image: require("@/assets/images/anime/anime2.jpeg"),
         },
         {
           id: 7,
-          image: require("@/assets/images/movie-1.jpg"),
+          image: require("@/assets/images/movie-home/movie7.jpg"),
         },
         {
           id: 8,
-          image: require("@/assets/images/movie-2.jpg"),
+          image: require("@/assets/images/tv-shows/tv-show3.jpeg"),
         },
         {
           id: 9,
-          image: require("@/assets/images/movie-3.jpg"),
+          image: require("@/assets/images/anime/anime3.jpeg"),
         },
         {
           id: 10,
-          image: require("@/assets/images/movie-4.jpg"),
+          image: require("@/assets/images/movie-home/movie10.jpg"),
         },
         {
           id: 11,
-          image: require("@/assets/images/movie-5.jpg"),
+          image: require("@/assets/images/tv-shows/tv-show4.jpeg"),
         },
         {
           id: 12,
-          image: require("@/assets/images/movie-6.jpg"),
+          image: require("@/assets/images/anime/anime4.jpeg"),
+        },
+        {
+          id: 13,
+          image: require("@/assets/images/movie-home/movie13.jpg"),
+        },
+        {
+          id: 14,
+          image: require("@/assets/images/tv-shows/tv-show5.jpeg"),
+        },
+        {
+          id: 15,
+          image: require("@/assets/images/anime/anime5.jpeg"),
+        },
+        {
+          id: 16,
+          image: require("@/assets/images/movie-home/movie16.jpg"),
         },
       ],
     };

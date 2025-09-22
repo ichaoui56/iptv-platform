@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
-import ISPProviderPage from "../pages/ISPProviderPage.vue";
 import IPTVServicePage from "../pages/IPTVServicePage.vue";
 import ISPBroadbandPage from "../pages/ISPBroadbandPage.vue";
 import OTTPlatformPage from "../pages/OTTPlatformPage.vue";
@@ -37,11 +36,6 @@ import ErrorPage from "../pages/ErrorPage.vue";
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    name: "ISPProviderPage",
-    component: ISPProviderPage,
-  },
-  {
-    path: "/iptv-service",
     name: "IPTVServicePage",
     component: IPTVServicePage,
   },
@@ -199,7 +193,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory("/nylo/"),
+  history: createWebHistory("/iptv/"),
   routes,
   linkExactActiveClass: "active",
   scrollBehavior() {

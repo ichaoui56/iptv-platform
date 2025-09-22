@@ -16,12 +16,12 @@
               </RouterLink>
               <div class="favorite-match-img">
                 <img
-                  src="@/assets/images/favorite-match-1.png"
+                  src="@/assets/images/dont-miss/dont-miss1.png"
                   alt="favorite-match"
                 />
               </div>
               <img
-                src="@/assets/images/favorite-shape.png"
+                src="@/assets/images/dont-miss/dont-miss-1.png"
                 class="favorite-shape"
                 alt="favorite-shape"
               />
@@ -38,7 +38,7 @@
             <div class="hover-style2">
               <div class="favorite-match-img-2">
                 <img
-                  src="@/assets/images/favorite-match-2.png"
+                  src="@/assets/images/dont-miss/dont-miss2.png"
                   alt="favorite-match"
                 />
               </div>
@@ -47,7 +47,7 @@
                 <span class="border-style">View All News Channel</span>
               </RouterLink>
               <img
-                src="@/assets/images/favorite-shape-2.png"
+                src="@/assets/images/dont-miss/dont-miss-2.png"
                 class="favorite-shape"
                 alt="favorite-shape"
               />

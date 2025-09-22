@@ -1,5 +1,5 @@
 <template>
-  <NavbarOne />
+  <NavbarTwo />
   <PageBanner
     pageTitle="PRICING"
     subTitle="Explore our diverse range of High-Speed internet pricing plans tailored to fit Every need & budget"
@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import NavbarOne from "@/components/Layouts/NavbarOne.vue";
+import NavbarTwo from "@/components/Layouts/NavbarTwo.vue";
 import PageBanner from "@/components/Common/PageBanner.vue";
 import PricingPlans from "@/components/Pricing/PricingPlans.vue";
 import TestOurService from "@/components/Pricing/TestOurService.vue";
@@ -27,7 +27,7 @@ import CopyRight from "@/components/Layouts/CopyRight.vue";
 export default defineComponent({
   name: "PricingPage",
   components: {
-    NavbarOne,
+    NavbarTwo,
     PageBanner,
     PricingPlans,
     TestOurService,

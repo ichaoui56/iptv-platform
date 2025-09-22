@@ -1,5 +1,5 @@
 <template>
-  <NavbarOne />
+  <NavbarTwo />
   <PageBanner
     pageTitle="ABOUT US"
     subTitle="Nestor is the fastest internet provider in whole Europe to the mass communication"
@@ -21,7 +21,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import NavbarOne from "@/components/Layouts/NavbarOne.vue";
+import NavbarTwo from "@/components/Layouts/NavbarTwo.vue";
 import PageBanner from "@/components/Common/PageBanner.vue";
 import WhoWeAre from "@/components/AboutUs/WhoWeAre.vue";
 import PoweringDailyLife from "@/components/AboutUs/PoweringDailyLife.vue";
@@ -39,7 +39,7 @@ import CopyRight from "@/components/Layouts/CopyRight.vue";
 export default defineComponent({
   name: "AboutUsPage",
   components: {
-    NavbarOne,
+    NavbarTwo,
     PageBanner,
     WhoWeAre,
     PoweringDailyLife,

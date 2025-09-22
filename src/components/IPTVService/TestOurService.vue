@@ -50,7 +50,7 @@ export default defineComponent({
   name: "TestOurService",
   setup() {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const bgImage = require("@/assets/images/services-test-bg.jpg");
+    const bgImage = require("@/assets/images/testing/services-test-bg.jpg");
 
     return {
       bgImage,

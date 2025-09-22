@@ -75,35 +75,35 @@ export default defineComponent({
       slides: [
         {
           id: 1,
-          image: require("@/assets/images/slide-5.jpg"),
+          image: require("@/assets/images/iptv-hero/banner2/slide-f-1.png"),
         },
         {
           id: 2,
-          image: require("@/assets/images/slide-6.jpg"),
+          image: require("@/assets/images/iptv-hero/banner2/slide-f-2.jpg"),
         },
         {
           id: 3,
-          image: require("@/assets/images/slide-7.jpg"),
+          image: require("@/assets/images/iptv-hero/banner2/slide-f-3.jpg"),
         },
         {
           id: 4,
-          image: require("@/assets/images/slide-8.jpg"),
+          image: require("@/assets/images/iptv-hero/banner2/slide-f-4.jpg"),
         },
         {
           id: 5,
-          image: require("@/assets/images/slide-5.jpg"),
+          image: require("@/assets/images/iptv-hero/banner2/slide-f-5.jpg"),
         },
         {
           id: 6,
-          image: require("@/assets/images/slide-6.jpg"),
+          image: require("@/assets/images/iptv-hero/banner2/slide-f-6.jpg"),
         },
         {
           id: 7,
-          image: require("@/assets/images/slide-7.jpg"),
+          image: require("@/assets/images/iptv-hero/banner2/slide-f-7.jpg"),
         },
         {
           id: 8,
-          image: require("@/assets/images/slide-8.jpg"),
+          image: require("@/assets/images/iptv-hero/banner2/slide-f-8.jpg"),
         },
       ],
     };

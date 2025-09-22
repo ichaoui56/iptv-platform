@@ -7,7 +7,7 @@
             class="our-content-img position-relative z-2 text-center text-lg-end"
           >
             <img
-              src="@/assets/images/our-content.png"
+              src="@/assets/images/iptv-about-us/our-content.png"
               alt="our-content"
               data-aos="fade-up"
               data-aos-duration="1000"

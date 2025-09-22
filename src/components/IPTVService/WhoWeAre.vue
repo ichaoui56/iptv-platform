@@ -69,12 +69,12 @@
                       </div>
                     </div>
                   </div>
-                  <img src="@/assets/images/who-we-1.jpg" alt="who-we" />
+                  <img src="@/assets/images/iptv-who-we-are/who-we-1.jpg" alt="who-we" />
                 </div>
               </div>
               <div class="col-lg-6 col-sm-6">
                 <div class="who-we-2 who-we-img">
-                  <img src="@/assets/images/who-we-2.jpg" alt="who-we" />
+                  <img src="@/assets/images/iptv-who-we-are/who-we-2.jpg" alt="who-we" />
                 </div>
               </div>
             </div>

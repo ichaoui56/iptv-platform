@@ -1,5 +1,5 @@
 <template>
-  <NavbarOne />
+  <NavbarTwo />
   <PageBanner
     pageTitle="CHANNEL LIST"
     subTitle="Channel List"
@@ -14,7 +14,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import NavbarOne from "@/components/Layouts/NavbarOne.vue";
+import NavbarTwo from "@/components/Layouts/NavbarTwo.vue";
 import PageBanner from "@/components/Common/PageBanner.vue";
 import TheListOfChannels from "@/components/ChannelList/TheListOfChannels.vue";
 import EnjoySports from "@/components/ChannelList/EnjoySports.vue";
@@ -25,7 +25,7 @@ import CopyRight from "@/components/Layouts/CopyRight.vue";
 export default defineComponent({
   name: "ChannelListPage",
   components: {
-    NavbarOne,
+    NavbarTwo,
     PageBanner,
     TheListOfChannels,
     EnjoySports,

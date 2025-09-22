@@ -3,9 +3,15 @@
     <div class="preloader">
       <div class="waviy">
         <span>N</span>
-        <span>Y</span>
+        <span>E</span>
+        <span>X</span>
+        <span>T</span>
+        <span>P</span>
         <span>L</span>
-        <span>O</span>
+        <span>A</span>
+        <span>Y</span>
+        <span>T</span>
+        <span>V</span>
       </div>
     </div>
   </div>

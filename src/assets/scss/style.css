@@ -1469,7 +1469,7 @@ Page-navigation Area Style
 .navbar .bg-opacity .navbar-nav .nav-item .nav-link.active {
   color: var(--white);
   padding: 15px 30px;
-  padding-right: 45px;
+  padding-right: 34px;
   border-radius: 10px;
   background: #332f30;
   box-shadow: 0px 4px 30px 0px rgba(146, 139, 221, 0.1);

@@ -9,7 +9,7 @@
           data-aos-delay="100"
         >
           <div class="benefits-img">
-            <img src="@/assets/images/benefits.png" alt="benefits" />
+            <img src="@/assets/images/benefits/benefits.png" alt="benefits" />
             <div class="review mb-minus-53">
               <div class="review-in">
                 <span>EXPERIENCE OF</span>

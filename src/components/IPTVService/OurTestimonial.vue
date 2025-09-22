@@ -108,25 +108,25 @@ export default defineComponent({
     const bgImage = require("@/assets/images/testimonial-bg.png");
     const testimonials = ref([
       {
-        image: require("@/assets/images/testimonial-1.jpg"),
+        image: require("@/assets/images/reviews/review1.jpeg"),
         name: "Britteney Anderson",
         review:
           "Even though I ended up staying with Nestors, I want to commend Sara for her professionalism, knowledge, patience, and excellent service.",
       },
       {
-        image: require("@/assets/images/testimonial-2.jpg"),
+        image: require("@/assets/images/reviews/review2.jpeg"),
         name: "Victor James",
         review:
           "Don't give up, you guys are doing a lot of good in an industry that needs the competition and a good dusting off! Even though I ended up staying with Nestors.",
       },
       {
-        image: require("@/assets/images/testimonial-1.jpg"),
+        image: require("@/assets/images/reviews/review1.jpeg"),
         name: "Britteney Anderson",
         review:
           "Even though I ended up staying with Nestors, I want to commend Sara for her professionalism, knowledge, patience, and excellent service.",
       },
       {
-        image: require("@/assets/images/testimonial-2.jpg"),
+        image: require("@/assets/images/reviews/review2.jpeg"),
         name: "Victor James",
         review:
           "Don't give up, you guys are doing a lot of good in an industry that needs the competition and a good dusting off! Even though I ended up staying with Nestors.",

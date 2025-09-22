@@ -1,5 +1,5 @@
 <template>
-  <NavbarOne />
+  <NavbarTwo />
   <PageBanner
     pageTitle="CONTACT US"
     subTitle="Your direct line to seamless support and information – Reach out to our dedicated team at Nestor"
@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import NavbarOne from "@/components/Layouts/NavbarOne.vue";
+import NavbarTwo from "@/components/Layouts/NavbarTwo.vue";
 import PageBanner from "@/components/Common/PageBanner.vue";
 import ContactInfo from "@/components/ContactUs/ContactInfo.vue";
 import SendUsMessage from "@/components/ContactUs/SendUsMessage.vue";
@@ -27,7 +27,7 @@ import CopyRight from "@/components/Layouts/CopyRight.vue";
 export default defineComponent({
   name: "ContactUsPage",
   components: {
-    NavbarOne,
+    NavbarTwo,
     PageBanner,
     ContactInfo,
     SendUsMessage,

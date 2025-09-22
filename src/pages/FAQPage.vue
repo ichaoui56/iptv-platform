@@ -1,5 +1,5 @@
 <template>
-  <NavbarOne />
+  <NavbarTwo />
   <PageBanner
     pageTitle="FAQ"
     subTitle="Unveiling the answers to frequently asked questions – from technical inquiries to service customization"
@@ -13,7 +13,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import NavbarOne from "@/components/Layouts/NavbarOne.vue";
+import NavbarTwo from "@/components/Layouts/NavbarTwo.vue";
 import PageBanner from "@/components/Common/PageBanner.vue";
 import FAQ from "@/components/FAQ/index.vue";
 import SubscribeContent from "@/components/Common/SubscribeContent.vue";
@@ -23,7 +23,7 @@ import CopyRight from "@/components/Layouts/CopyRight.vue";
 export default defineComponent({
   name: "FAQPage",
   components: {
-    NavbarOne,
+    NavbarTwo,
     PageBanner,
     FAQ,
     SubscribeContent,
