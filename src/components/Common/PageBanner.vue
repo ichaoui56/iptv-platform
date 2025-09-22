@@ -21,7 +21,6 @@
     <div class="container mw-1356" v-if="!hideBanner">
       <div class="page-banner-img">
         <img :src="pageBannerImage" :alt="`Banner image for ${pageTitle}`" />
-        <!-- <img src="@/assets/images/page-banner-2.jpg" alt="page-banner" /> -->
       </div>
     </div>
     <img

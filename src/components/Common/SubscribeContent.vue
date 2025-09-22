@@ -75,7 +75,7 @@ export default defineComponent({
     },
     subscribeImage: {
       type: String,
-      default: require("@/assets/images/subscribe.png"),
+      default: require("@/assets/images/faq/subscribe-3.png"),
     },
     shape3: {
       type: String,

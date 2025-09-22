@@ -39,7 +39,7 @@
 
         <div class="col-lg-6">
           <div class="faq-img">
-            <img src="@/assets/images/faq-2.png" alt="faq" />
+            <img src="@/assets/images/faq/page-banner-7.jpg" alt="faq" />
           </div>
         </div>
       </div>

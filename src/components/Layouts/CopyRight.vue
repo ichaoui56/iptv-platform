@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <p>
-          © <span>Nylo</span> is Proudly Owned by
-          <a href="https://hibotheme.com/" target="_blank">HiboTheme</a>
+          © <span>NextPlayTV</span> is Proudly Owned by
+          <a href="https://webvisionagency.ma/" target="_blank">Web Vision Agency</a>
         </p>
       </div>
     </div>

@@ -10,7 +10,20 @@
         >
           <div class="footer-single-widget mw-250">
             <RouterLink to="/" class="d-inline-block footer-logo">
-              <img :src="footerData.logo" alt="white-logo" />
+              <img
+                src="@/assets/images/logo/nextplaytv-logo.png"
+                class="main-logo"
+                width="190"
+                height="50"
+                alt="white-logo"
+              />
+              <img
+                src="@/assets/images/white-logo.svg"
+                class="white-logo d-none"
+                width="190"
+                height="50"
+                alt="white-logo"
+              />
             </RouterLink>
             <p>{{ footerData.description }}</p>
             <h4>Social Media</h4>

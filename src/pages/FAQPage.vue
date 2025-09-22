@@ -32,7 +32,7 @@ export default defineComponent({
   },
   setup() {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const pageBannerImg = require("@/assets/images/page-banner-5.jpg");
+    const pageBannerImg = require("@/assets/images/faq/page-banner-5.jpg");
 
     return {
       pageBannerImg,
